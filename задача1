@@ -1,0 +1,11 @@
+a = int(input("Введите значение для А "))
+b = int(input("Введите значение для B"))
+if a<b:
+    for i in range(a,b+1):
+        print(i)
+if a>b:
+    q = 0
+    for i in range(b,a):
+        print(a-q)
+        q = q+1
+    print(b)
